@@ -180,6 +180,7 @@
             position: relative;
             overflow: hidden;
             margin: 0;
+            padding: 0;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -190,9 +191,15 @@
             position: relative;
             overflow: hidden;
             margin: 0;
+            padding: 0;
             display: flex;
             align-items: center;
             justify-content: center;
+        }
+
+        /* Hero und erste Parallax-Sektion direkt verbinden */
+        .hero + .parallax-section {
+            margin-top: -5px;
         }
 
         .parallax-image {
